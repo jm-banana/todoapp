@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native Build Directories
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+android/captures/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.iml
+
+# Metro / Bundler
+.lockb
+*.bundle
+
+# Environment and Local Configs
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+*.log
